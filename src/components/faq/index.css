@@ -1,0 +1,20 @@
+details>summary {
+    list-style: none;
+}
+
+details>summary::-webkit-details-marker {
+    display: none;
+}
+
+details[open] summary .arrow-up {
+    display: none;
+  }
+  
+  details summary .arrow-down {
+    display: none;
+  }
+  
+  details[open] summary .arrow-down {
+    display: inline-block;
+    transform: rotate(180deg);
+  }
