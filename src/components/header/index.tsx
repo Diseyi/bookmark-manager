@@ -2,7 +2,11 @@ import Logo from "../logo";
 import Container from "../container";
 import hamburger from "../../assets/images/icon-hamburger.svg";
 
-const Header = () => {
+interface HeaderProps {
+  onclick: () => void
+ }
+
+const Header = ({onclick}: HeaderProps) => {
   return (
     <div className="bg-white py-6 ">
       <Container>
@@ -16,12 +20,11 @@ const Header = () => {
               <button className="text-dark-blue hover:text-soft-red">Contact</button>
               <button className=" text-white border-2 border-soft-red bg-soft-red px-8 py-[6px] rounded hover:bg-white hover:text-soft-red">Login</button>
           </div>
-          <div className="md:hidden">
+          <button onClick={onclick} className="md:hidden">
             <img src={hamburger} alt="" className="" />
-          </div>
+          </button>
         </div>
       </Container>
-
     </div>
   )
 }

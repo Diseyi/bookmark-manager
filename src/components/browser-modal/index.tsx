@@ -14,7 +14,6 @@ const BroswerModal = ({imgsrc, title, version}: BroswerModalProps) => {
                 <div className="w-32 h-32">
                     <img src={imgsrc} alt="" className=" w-32 h-32" /> 
                 </div>
-                <hr />
                 <div className="text-dark-blue">
                     <div className=" font-bold">{title} </div>
                     <div className="font-light text-sm opacity-50 py-1">{version} </div>

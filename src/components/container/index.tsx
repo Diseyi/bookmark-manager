@@ -6,7 +6,7 @@ interface ContainerProps {
 
 const Container = ({ children }: ContainerProps) => {
   return (
-    <div className=" w-11/12 xl:w-10/12 m-auto relative">
+    <div className=" w-11/12 xl:w-10/12 2xl:w-9/12 m-auto relative">
       {children}
     </div>
   )
