@@ -8,9 +8,9 @@ interface HeaderProps {
 
 const Header = ({onclick}: HeaderProps) => {
   return (
-    <div className="bg-white py-12 ">
+    <header className="bg-white py-12 ">
       <Container>
-        <div className="flex flex-row items-center justify-between gap-8">
+        <nav className="flex flex-row items-center justify-between gap-8">
           <div className="">
             <Logo color="#242A45" />
           </div>
@@ -23,9 +23,9 @@ const Header = ({onclick}: HeaderProps) => {
           <button onClick={onclick} className="md:hidden">
             <img src={hamburger} alt="" className="" />
           </button>
-        </div>
+        </nav>
       </Container>
-    </div>
+    </header>
   )
 }
 
