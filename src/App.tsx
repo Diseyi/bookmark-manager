@@ -57,7 +57,7 @@ function App() {
 
   const [isValid, setIsValid] = useState(true);
 
-  const handleEmailChange = (event: any) => {
+  const handleEmailChange = (event: { target: { value: string, validity: {valid: boolean} }}) => {
     const enteredEmail = event.target.value;
     setEmail(enteredEmail);
 

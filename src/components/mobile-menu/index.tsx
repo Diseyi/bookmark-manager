@@ -24,11 +24,11 @@ const MobileMenu = ({onclick}: MobileMenuProps) => {
           </button>
         </div>
         <div className="flex flex-col md:flex-row items-center justify-between mt-10 gap-16">
-          <div className="flex w-full flex-col md:flex-row gap-6 lg:gap-10">
-            <button className="text-white border-b hover:text-soft-red ">Features</button>
-            <button className="text-white border-b hover:text-soft-red ">Pricing</button>
-            <button className="text-white border-b hover:text-soft-red ">Contact</button>
-            <button className=" text-white border-2 w-full px-8 py-[6px] uppercase rounded ">Login</button>
+          <div className="flex w-full flex-col md:flex-row  ">
+            <button className="text-white border-b py-4 hover:text-soft-red ">Features</button>
+            <button className="text-white border-b py-4 hover:text-soft-red ">Pricing</button>
+            <button className="text-white border-b py-4 hover:text-soft-red ">Contact</button>
+            <button className=" text-white border-2 my-6 w-full px-8 py-[6px] uppercase rounded ">Login</button>
           </div>
           <div className="flex gap-8">
             <button onMouseEnter={() => setFbcolor('#FA5959')}
