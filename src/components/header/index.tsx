@@ -8,7 +8,7 @@ interface HeaderProps {
 
 const Header = ({onclick}: HeaderProps) => {
   return (
-    <div className="bg-white py-6 ">
+    <div className="bg-white py-10 ">
       <Container>
         <div className="flex flex-row items-center justify-between gap-8">
           <div className="">
