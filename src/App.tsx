@@ -72,13 +72,13 @@ function App() {
 
   return (
     <>
-      <div className="overflow-hidden">
+      <div className="overflow-hidden tracking-wider">
         <Header onclick={handleMenu} />
         {
           ismenu && <MobileMenu onclick={handleMenu} />
         }
         <Container>
-          <div className="flex flex-col-reverse items-center py-10 lg:flex-row relative gap-8 lg:gap-4">
+          <div className="flex flex-col-reverse items-center py-10 lg:py-12 lg:flex-row relative gap-8 lg:gap-4">
             <div className="lg:w-1/2 text-center lg:text-left text-dark-blue">
               <h1 className="text-3xl md:text-5xl font-bold">A Simple Bookmark  Manager</h1>
               <p className="font-light opacity-50 py-4"> A clean and simple interface to organize your favourite websites. Open a new
@@ -92,11 +92,11 @@ function App() {
               <div className="w-full relative z-20 ">
                 <img src={hero} alt="" className="w-full" />
               </div>
-              <div className=" w-full lg:w-[690px] rounded-l-full bg-soft-blue h-[190px] md:h-[400px] lg:h-[300px]  absolute bottom-0 -right-16 lg:-right-60 "></div>
+              <div className=" w-full lg:w-[690px] rounded-l-full bg-soft-blue h-[190px] md:h-[400px] lg:h-[300px]  absolute bottom-0 lg:-bottom-4 -right-16 lg:-right-60 "></div>
             </div>
           </div>
         </Container>
-        <section className="text-center py-16">
+        <section className="text-center py-12 lg:py-20">
           <div className="w-11/12 mx-auto text-center text-dark-blue">
             <h2 className="text-2xl font-bold md:text-3xl">Features</h2>
             <p className="font-light md:w-[530px] mx-auto opacity-50 py-3 "> Our aim is to make it quick and easy for you to access your favourite websites.
