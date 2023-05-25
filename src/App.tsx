@@ -80,7 +80,7 @@ function App() {
         <Container>
           <div className="flex flex-col-reverse items-center py-10 lg:flex-row relative gap-8 lg:gap-4">
             <div className="lg:w-1/2 text-center lg:text-left text-dark-blue">
-              <h2 className="text-3xl md:text-5xl font-bold">A Simple Bookmark  Manager</h2>
+              <h1 className="text-3xl md:text-5xl font-bold">A Simple Bookmark  Manager</h1>
               <p className="font-light opacity-50 py-4"> A clean and simple interface to organize your favourite websites. Open a new
                 browser tab and see your sites load instantly. Try it for free.</p>
               <div className="flex flex-row gap-4 justify-center lg:justify-start">
@@ -98,10 +98,10 @@ function App() {
         </Container>
         <section className="text-center py-16">
           <div className="w-11/12 mx-auto text-center text-dark-blue">
-            <h2 className="text-xl font-bold md:text-2xl">Features</h2>
+            <h2 className="text-2xl font-bold md:text-3xl">Features</h2>
             <p className="font-light md:w-[530px] mx-auto opacity-50 py-3 "> Our aim is to make it quick and easy for you to access your favourite websites.
               Your bookmarks sync between your devices so you can access them on the go.</p>
-            <div className="flex md:w-[650px] mt-4 mx-auto flex-col md:flex-row items-center md:gap-12 border-t md:border-t-0 border-b">
+            <div className="flex md:w-[660px] mt-4 mx-auto flex-col md:flex-row items-center md:gap-12 border-t md:border-t-0 border-b">
               {
                 TABS.map(item => (
                   <div key={item.id} className="w-full border-b md:border-none">
@@ -118,7 +118,7 @@ function App() {
         <Container>
           <section className="text-center mx-auto lg:py-16">
             <div className="w-11/12 md:w-[540px] mx-auto text-dark-blue">
-              <h2 className="text-xl md:text-2xl font-bold">Download the extension</h2>
+              <h2 className="text-2xl font-bold md:text-3xl">Download the extension</h2>
               <p className="font-light opacity-50 py-3"> We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritize.</p>
             </div>
             <div className="flex flex-col md:flex-row justify-center gap-6 py-6">
@@ -136,7 +136,7 @@ function App() {
 
           <section className="text-center py-16">
             <div className="w-11/12 md:w-[540px] mx-auto text-dark-blue">
-              <h2 className="text-xl md:text-2xl font-bold">Frequently Asked Questions</h2>
+              <h2 className="text-2xl font-bold md:text-3xl">Frequently Asked Questions</h2>
               <p className="font-light opacity-50 py-3"> Here are some of our FAQs. If you have any other questions you'd like answered please feel free to email us.</p>
               <div className=" py-16 ">
                 {

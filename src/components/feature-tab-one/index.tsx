@@ -16,7 +16,7 @@ const FeatureTabOne = () => {
                  */}
                 </div>
                 <div className="lg:w-1/2 text-center lg:text-left text-dark-blue mt-20 md:mt-0">
-                    <h2 className="text-xl font-bold md:text-2xl">Bookmark in one click</h2>
+                    <h2 className="text-2xl font-bold md:text-3xl">Bookmark in one click</h2>
                     <p className="font-light md:w-2/3 mx-auto lg:w-full opacity-50 py-4"> Organize your bookmarks however you like. Our simple drag-and-drop interface
                         gives you complete control over how you manage your favourite sites.</p>
                     <button className=" text-white border-2 border-soft-blue bg-soft-blue hover:bg-white hover:text-soft-blue px-2 md:px-6 py-3 rounded my-4 "> More Info</button>
